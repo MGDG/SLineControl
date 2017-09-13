@@ -11,6 +11,8 @@
 //						（越大代表压缩的最厉害，中间（x坐标0点周围）加速度越
 //						 大；越小越接近匀加速。理想的S曲线 flexible的取值为4-6），
 
+// return 根据返回值 设定步进电机的换相速度 或者 设定pwm占空比
+
 //S曲线加速
 float SLineUP(float len, float Fmax, float Fmin, float flexible,int index)
 {
